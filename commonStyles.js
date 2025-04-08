@@ -59,57 +59,80 @@ export const styles = StyleSheet.create({
     textTransform: "uppercase",
   },
 
-  image1:{ 
+  design1:{ 
     position: "absolute", 
     top: height * 0.02, 
     right: width * 0.60,
   },
 
-  image2:{ 
+  design2:{ 
     position: "absolute", 
     top: height * 0.12, 
     right: width * 0.1,
   },
 
-  image3:{ 
+  image_spider1:{ 
       width: width * 0.8,
       height: width * 0.8,
       position: "absolute",
       top: height * 0.18,
   },
 
-  image4:{ 
+  shadow1:{ 
     position: "absolute",
     top: height * 0.61, // Чуть ниже паука
   },
 
-  image5:{ 
+  slider:{ 
     position: "absolute",
-    top: height * 0.71,
+    bottom: height * 0.27, // Расстояние от нижней части экрана
   },
 
-  image6:{ 
+  design4:{ 
     position: "absolute", 
-    top: height * 0.4, 
+    top: height * 0.65, 
     right: width * 0.06,
   },
 
-  image7:{ 
+  design3:{ 
     position: "absolute", 
-    top: height * 0.75, 
+    top: height * 0.74, 
     left: width * 0.1,
   },
 
-  image8:{
-      width: width * 0.8,
-      height: width * 0.8,
+  image_spider2:{
+
       position: "absolute",
       top: height * 0.025,
   },
 
+  shadow2:{
+    position: "absolute", 
+    top: height * 0.43,
+    alignItems:'center', 
+},
+  design6:{
+    position: "absolute", 
+    top: height * 0.43, 
+    right: width * 0.05,
+  },
+
+  design5:{
+    position: "absolute", 
+    top: height * 0.04, 
+    right: width * 0.24,
+  },
+  design7:{ 
+    position: "absolute", 
+    top: height * 0.7, 
+    left: width * 0.1,
+  },
+
   footer:{
-    top:height*0.39,
-    alignItems:'center',
+    position: "absolute",
+  bottom: height * 0.05, // Или 0.1 — на твой вкус
+  alignItems:'center',
+  width: '100%',
   },
 
   button:{
